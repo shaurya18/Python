@@ -1,3 +1,65 @@
-# The largest heading
-## The second largest heading
-###### The smallest heading
+
+# Getting started with Python
+  
+  ##Features of Python 
+    - Open source 
+    - Object oriented language but can be used functionally and procedural styles as well
+    - Dynamically typed 
+    - Strongly typed
+    - Whitespaces delimited - indentation / 4 spaces
+    - Interpreted 
+        - slower but helps the developer to interact directly 
+      
+  ## Different python editions
+    - CPython
+    - JPython
+    - PyPy
+    - IronPython
+    
+  PEPs, or Python Enhancement Proposals, can be submitted by anyone who has an idea about how to enhance the Python language. These are then reviewed, rejected, or accepted by the Python community, as a way to evolve the language.
+   
+   Python 2 vs Python 3 
+    - Python 3 should be defualt 
+    
+  IDE 
+    IDLE
+      - Standard error - red 
+      - Standard input - black 
+      - Built-in - blue
+      - Keyword - orange
+    
+   Whitespaces/ Indentation
+   
+         def myfunc:
+             print('ML AI')
+
+         if x>0:
+             print('9')
+         else:
+             print('0')
+             
+           
+   Input data
+       > name = input('What is your name')
+       
+       print('Hello', name)
+       It will have the space after hello by default 
+       
+    Modules 
+    
+      Any python file ending with .py/ .pyc/ .pyo can be used as a module
+      
+      how to add modules 
+        import module
+            import math as m 
+            
+        import functions
+            from math import pi, tan
+            
+        
+            
+            
+
+     
+   
+
