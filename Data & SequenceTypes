@@ -1,0 +1,107 @@
+
+#Data Type and Sequence Types 
+
+   int type 
+      x = 5
+      type(x) --> <class 'int'>
+      
+      x // y = 0
+      x % y = 5
+      x ** y = 97655625
+      divmod(x, y) = (0, 5)
+      pow(x, y) =9765625
+      abs(-5) = 5
+      int(5.2) = 5
+      int("0xff, 16) = 255
+      float(x) = 0.5
+
+     x//y = 0 (floor based division; will always give you an integer 
+     doesnt support x++ , x-- but inline functions can be used x += y
+     
+  Float type 
+    x = 5.0
+    y = float.fromhex('A')
+    
+    subject to rounding errors, if you want to use more accurate withput decimal errors use Decimal module 
+    
+  Math Module 
+      import math
+
+      # The math module provides a couple of constants
+      pi = math.pi
+      e = math.e
+      print('The value of pi is:', pi)
+      print('The rounded value of pi is:', round(pi, 4))
+
+      # The float class allows creation of special numbers
+      pos_inf = float('inf')
+      neg_inf = float('-inf')
+      not_a_num = float('nan')
+
+      Any NaN included operation will have result as NaN. Please not NaN is not equal to itself.
+      
+  Bool Type 
+  
+      Bool class is sub class of int class
+      None - no value at all..is considered as False
+      empty seq/ dict/ sets/ list as considered false
+      
+      OR - shortcircuit operator = 1 OR 0 = 1
+      
+      
+      
+  Str type - Deep dive needed
+     can be created using ' or "
+     
+     \  - escape sequences
+     \n - new line
+     \\ - print single /
+     \t = tabs/ columns
+     
+     len, min, max, x in myString = True
+     count('e')
+     index('e') - error when the letter is not present 
+     find('Xvc')
+     startsWith()
+     endsWith()
+     upper()
+     lower()
+     isDigit()
+     isAlpha()
+     
+ Bytes Class
+  This provides an immutable sequence of integer values from zero through to 255, representing the bytes typically from something like a string
+  raw string had a r prefix, a bytes literal will have a b prefix before a quoted string. That string can only contain ASCII characters, and escaped hexadecimal characters. 
+    
+    
+ byte Array 
+ 
+ 
+ List - mutable 
+  x=list()
+  x = [1,2,3,4,5]
+  combination of tuples -> x = [1,2, (3,4,5)]
+  x.append(4)
+  x.insert(4)
+  x.pop() - removes last element (by default) and return the value 
+  x.remove(4) 
+  x.append(4)
+  
+  
+  sorted vs sort
+    sorted - makes a copy and sorts doesnt affect the original list 
+    sort - changes the original list 
+  
+  reverse() 
+  index()
+  count()
+  len(x)=5
+ 
+ Tuple - immutable 
+ 
+ c=tuple()
+ 
+ Slicing 
+    
+    
+    Go through slicing and check notes and check for other sources, studytonight, blogs learn python tutorials, codeblocks etc
